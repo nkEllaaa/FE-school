@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+p{
+  width:400px;
+  border:2px solid #ccc;
+
+}
+
+.ellipsis{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.multi-ellipsis{
+  overflow:hidden;  
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
